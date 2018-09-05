@@ -7,7 +7,15 @@ class App extends Component {
     return (
       <div className="container">
         <Header />
-        <Work />
+        <div className="row" style={{ margin: 'auto' }}>
+          <Work />
+          <div className="col-md-4">
+            <p>Projects</p>
+          </div>
+          <div className="col-md-4">
+            <p>Education</p>
+          </div>
+        </div>
       </div>
     );
   }

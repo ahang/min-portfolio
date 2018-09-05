@@ -1,0 +1,11 @@
+.work ul {
+  list-style: none;
+}
+
+.workTitleStyle {
+  text-transform: uppercase;
+}
+
+.experienceTextStyle {
+  margin: 0px;
+}

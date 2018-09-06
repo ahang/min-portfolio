@@ -3,21 +3,21 @@
     "id": 1,
     "company": "LLT Group",
     "website": "https://www.llt-group.com/",
-    "experience": "July 2017 - Present",
+    "experience": "Jul 2017 - Present",
     "title": "Web Application Developer"
   },
   {
     "id": 2,
     "company": "Best Case",
     "website": "https://www.bestcase.com",
-    "experience": "May 2013 - July 2017",
+    "experience": "May 2013 - Jul 2017",
     "title": "QA & Forms Specialist"
   },
   {
     "id": 3,
     "company": "Walgreens",
     "website": "https://www.walgreens.com/",
-    "experience": "July 2008 - May 2013",
+    "experience": "Jul 2008 - May 2013",
     "title": "Certified Pharmacy Technician"
   }
 ]

@@ -8,7 +8,10 @@ class Work extends Component {
     return data.map(work => {
       return (
         <li key={work.id}>
-          <a href={work.website}> {work.company}</a>
+          <a href={work.website} target="_">
+            {' '}
+            {work.company}
+          </a>
           <p className="experienceTextStyle">{work.experience}</p>
           <p>{work.title}</p>
         </li>
@@ -17,7 +20,7 @@ class Work extends Component {
   }
   render() {
     return (
-      <div className="col-md-4 work">
+      <div className="col-md-6 work">
         <ul>
           <p className="workTitleStyle">Work</p>
           {this.renderWorkHistory()}
